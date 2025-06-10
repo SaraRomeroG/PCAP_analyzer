@@ -80,4 +80,4 @@ El sistema permet escollir entre els següents tipus d'anàlisi:
 4. Exemple d'ús
 Per exemple, per realitzar una detecció de SYN Scan, utilitzeu la següent comanda:
   ```bash
-  python analitzarPCAP.py fitxer.pcap syn
+  python analisi_pcap.py fitxer.pcap syn
