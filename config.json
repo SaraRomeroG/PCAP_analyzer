@@ -1,0 +1,28 @@
+{
+    "ddos_threshold": 100,
+    "scan_threshold": 10,
+    "time": 60,
+    "icmp_flood_threshold": 100,
+    "http_request_threshold": 20,
+    "http_data_threshold": 1000,
+    "max_domain_length": 50,
+    "malicious_domains": [
+        "malware-example.com", 
+        "tracking.evil.net", 
+        "command-and-control.ru",
+        "malicious.com",
+        "evilsite.com"
+    ],
+    "lateral_movement_ports": {
+        "RDP": "3389",
+        "SMB": "445",
+        "SSH": "22",
+        "WinRM": "5985"
+    },
+    "suspicious_tlds": [".cn", ".ru", ".ir", ".kp", ".su"],
+    "dns_entropy_threshold": 4.0,
+    "known_ports": [
+        20, 21, 22, 23, 25, 53, 80, 110, 135,
+        137, 138, 139, 143, 443, 445, 3306, 3389
+    ]
+}
