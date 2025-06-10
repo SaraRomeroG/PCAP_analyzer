@@ -1,0 +1,3 @@
+pyshark
+pandas
+geoip2
