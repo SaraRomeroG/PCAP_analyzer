@@ -13,11 +13,12 @@ Aquesta guia d'usuari proporciona instruccions detallades per utilitzar l'eina d
 
 ## Passos per a utilitzar el sistema
 1. Preparació de l'entorn
-   -Instal·lar Python i les biblioteques necessàries.
-   - Obtenir un fitxer PCAP per analitzar.
-   - 
+-Instal·lar Python i les biblioteques necessàries.
+- Obtenir un fitxer PCAP per analitzar.
+   
 2. Carregar un fitxer PCAP
 Un cop es té el fitxer PCAP, es pot començar a analitzar-lo. Per veure les accions possibles, utilitzeu la següent comanda:
+```bash
 python analisi_pcap.py camí_del_fitxer.pcap -h
 
 3. Selecció de l'anàlisi a realitzar
@@ -77,4 +78,5 @@ El sistema permet escollir entre els següents tipus d'anàlisi:
 
 4. Exemple d'ús
 Per exemple, per realitzar una detecció de SYN Scan, utilitzeu la següent comanda:
+```bash
 python analitzarPCAP.py fitxer.pcap syn
