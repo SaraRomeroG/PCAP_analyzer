@@ -13,7 +13,8 @@ Aquesta guia d'usuari proporciona instruccions detallades per utilitzar l'eina d
 
 ## Passos per a utilitzar el sistema
 1. Preparació de l'entorn
--Instal·lar Python i les biblioteques necessàries.
+   
+- Instal·lar Python i les biblioteques necessàries.
 - Obtenir un fitxer PCAP per analitzar.
    
 2. Carregar un fitxer PCAP
